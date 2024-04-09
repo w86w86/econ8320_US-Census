@@ -7,6 +7,7 @@ Our dashboard will present the distribution of population by age groups, by gend
 We will follow the process below to collect the data:
 
 - [X]	Create the GitHub repository for the project.
+      > https://github.com/w86w86/econ8320_US-Census
 - [ ] Use the US Census Bureau API to collect data at the year-month-city level.
 - [ ] Build the python project:
     - [ ] collect at once all the data, 
