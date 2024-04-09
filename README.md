@@ -8,11 +8,11 @@ We will follow the process below to collect the data:
 
 - [X]	Create the GitHub repository for the project.
 - [ ] Use the US Census Bureau API to collect data at the year-month-city level.
-c.	Build the python project:
-1.	collect at once all the data, 
-2.	build the interactive dashboard using Streamlit
-3.	build the script that will run once per month through GitHub Actions to generate monthly data
-4.	update previous dataset with new collected items.
+- [ ] Build the python project:
+    - [ ] collect at once all the data, 
+    - [ ] build the interactive dashboard using Streamlit
+    - [ ] build the script that will run once per month through GitHub Actions to generate monthly data
+    - [ ] update previous dataset with new collected items.
 
 According to the CPS website, the API call look like is format: `http://api.census.gov/data/2024/cps/basic/jan?get=PEMLR,PWSSWGT,PEMARITL&for=state:01&PEEDUCA=39&key=YOUR_KEY_GOES_HERE` with all the variables defined in the JSON link: `https://api.census.gov/data/2024/cps/basic/jan/variables.json`
 
