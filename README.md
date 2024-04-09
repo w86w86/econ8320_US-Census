@@ -78,3 +78,12 @@ I don’t see the “city” option in the collected data, so will use the count
 | ------------------------------------------ | ------------------------------------- |
 | Interactive charts and graphs to visualize the selected demographic variables over time, allowing users to explore trends and patterns.
 years/Month:<br>State:<br>County:<br>Demographic: (drop down menu with content like Rent/own, Average/Mode of household income, Population | Cluster bar chart Of the overall demographic changes in the US gender distribution. |
+
+A table of detail demographic data for the selected city and time period
+| States | 2021              | 2022              | 2023 | 2024 |
+| ------ | ----------------- | ----------------- | ---- | ---- |
+| AL     | 3,210,000 (M↑, F) | 2,948,000 (M↑, F) |      |      |
+| AR     | 5,810,000 (M, F↓) | 2,520,000 (M, F↓) |      |      |
+
+
+
