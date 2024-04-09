@@ -65,8 +65,7 @@ Our project will try to understand the population by presenting social, demograp
 | QSTNUM   | Unique person identifier (Will help count the adult in a household who get interviewed).                                               |
 | HRNUMHOU | Household-total # of members                                                                                                           |
 
-I don’t see the “city” option in the collected data, so will use the county information according to the entity hierarchy below: 
-<img src="https://github.com/w86w86/econ8320_US-Census/assets/54444342/aa4028d5-1085-494e-a7f8-f805c41ddf5d" height="200">
+I don’t see the “city” option in the collected data, so will use the county information according to the entity hierarchy below: <img src="https://github.com/w86w86/econ8320_US-Census/assets/54444342/aa4028d5-1085-494e-a7f8-f805c41ddf5d" height="40">
 
 
 ## Dashboard Design 
