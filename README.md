@@ -77,7 +77,4 @@ I don’t see the “city” option in the collected data, so will use the count
 | Grill#1                                    | Grill#2                               |
 | ------------------------------------------ | ------------------------------------- |
 | Interactive charts and graphs to visualize the selected demographic variables over time, allowing users to explore trends and patterns.
-<br>years/Month:
-State:
-County:
-Demographic: (drop down menu with content like Rent/own, Average/Mode of household income, Population<br> | Cluster bar chart Of the overall demographic changes in the US gender distribution. |
+years/Month:<br>State:<br>County:<br>Demographic: (drop down menu with content like Rent/own, Average/Mode of household income, Population | Cluster bar chart Of the overall demographic changes in the US gender distribution. |
