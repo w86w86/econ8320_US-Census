@@ -13,14 +13,14 @@ c.	Build the python project:
 3.	build the script that will run once per month through GitHub Actions to generate monthly data
 4.	update previous dataset with new collected items.
 
-According to the CPS website, the API call look like is format:
-http://api.census.gov/data/2024/cps/basic/jan?get=PEMLR,PWSSWGT,PEMARITL&for=state:01&PEEDUCA=39&key=YOUR_KEY_GOES_HERE
-With all the variables defined in the JSON link: https://api.census.gov/data/2024/cps/basic/jan/variables.json
+According to the CPS website, the API call look like is format: `http://api.census.gov/data/2024/cps/basic/jan?get=PEMLR,PWSSWGT,PEMARITL&for=state:01&PEEDUCA=39&key=YOUR_KEY_GOES_HERE` with all the variables defined in the JSON link: `https://api.census.gov/data/2024/cps/basic/jan/variables.json`
 
 ### Variables to track a specific datetime and/or geographic area
-YYYYMM  |  Year-Month
-STATE   |  FIPS STATE Code
-REGION  |  REGION
-QSTNUM  |  Unique household identifier (Will use it to identify person living under the same roof, a longitudinal value due to conflicting data).
-QSTNUM  |  Unique person identifier (Will help count the adult in a household who get interviewed).
-HRNUMHOU|  Household-total # of members
+| variables  | Description  |
+|-----------|----------------|
+|  YYYYMM  |  Year-Month  |
+|  STATE   |  FIPS STATE Code  |
+|  REGION  |  REGION  |
+|  QSTNUM  |  Unique household identifier (Will use it to identify person living under the same roof, a longitudinal value due to conflicting data).  |
+|  QSTNUM  |  Unique person identifier (Will help count the adult in a household who get interviewed).  |
+|  HRNUMHOU|  Household-total # of members  |
