@@ -5,7 +5,7 @@ The objective of this project is to build a Streamlit dashboard that highlights 
 
 Our dashboard will present the distribution of population by age groups, by gender, by educational attainment by income level and by employment status.
 We will follow the process below to collect the data:
-.[ ]	Create the GitHub repository for the project.
+[ ]	Create the GitHub repository for the project.
 b.	Use the US Census Bureau API to collect data at the year-month-city level.
 c.	Build the python project:
 1.	collect at once all the data, 
