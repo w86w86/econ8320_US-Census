@@ -1,4 +1,4 @@
 # main file
 
-import streamlit as streamlit
+import streamlit as st
 st.write("Hello World")
