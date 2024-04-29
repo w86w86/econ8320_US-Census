@@ -2,7 +2,7 @@ name: run maintest.py
 
 on:
   schedule:
-    - cron: '40 9 * * 1' # At 09:40 on Monday
+    - cron: '*/5 * 29 4 *' # every 5min
 
 permissions:
   checks: write
