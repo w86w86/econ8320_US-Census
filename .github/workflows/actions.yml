@@ -1,14 +1,14 @@
 name: run maintest.py
 
 on:
-  push:
-    branches:
-      - main
+#  push:
+#    branches:
+#      - main
   
   workflow_dispatch:
 
-  schedule:
-    - cron: "*/5 * 29 4 *"
+#  schedule:
+#    - cron: "*/5 * 29 4 *"
 
 permissions:
   checks: write
