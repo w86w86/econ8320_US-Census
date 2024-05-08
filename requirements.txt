@@ -1,3 +1,6 @@
+requests
+numpy
+scipy
 pandas==2.0.3
 bs4==0.0.2
 plotly==5.19.0
