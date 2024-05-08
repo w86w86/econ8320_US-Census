@@ -1,3 +1,4 @@
 regex
 streamlit
 request
+pandas
