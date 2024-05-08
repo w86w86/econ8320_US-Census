@@ -22,4 +22,4 @@ st.write("""
 import pandas as pd
 df = pd.read_csv("2010-apr-MixComp.csv")
 
-st.write(f"""df.columns""")
+st.write(f"""{df.columns}""")
