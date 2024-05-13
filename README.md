@@ -34,8 +34,7 @@ A glance, this API indicates that we need to know about a couple of items
 | key=YOUR_KEY_GOES_HERE   | Developer API key                                                       |
 
 
-First in order to get anything from CPS, I got an API key in my UNO email by registering at https://api.census.gov/data/key_signup.html 
-
+First, in order to get anything from CPS, I got an API key in my UNO email by registering at https://api.census.gov/data/key_signup.html 
 
 ## Demographic variables chosen
 Our project will try to understand the population by presenting social, demographic and economic data:
@@ -56,33 +55,13 @@ Our project will try to understand the population by presenting social, demograp
 | PESEX          | Demographics-sex                                        |
 | PRCITSHP       | Demographics-United States citizenship group            |
 
-1. weight     represents the information related to population counts.
+      1. weight     represents the information related to population counts.
       2. nativity   column provides information about the state
-      1. PEMNTVTY   Demographics-native country of mother
-      3. marital    Demographics-marital status
-      4. sex        Demographics-sex
-      5. citiz      Demographics-United States citizenship group
-      6. occ1       Primary Job
-      7. occ2       Second Job
-      8. collegcred college credit completed
-      5. city       Demographics-city level
-
-
-## Dashboard Design 
-| Grill#1                                    | Grill#2 | Grill#3                     |
-| ------------------------------------------ | ------- | --------------------------- |
-| Introduction to the project and objectives | Author: | Last updated version (date) |
-
-| Grill#1                                    | Grill#2                               |
-| ------------------------------------------ | ------------------------------------- |
-| Interactive charts and graphs to visualize the selected demographic variables over time, allowing users to explore trends and patterns.
-years/Month:<br>State:<br>County:<br>Demographic: (drop down menu with content like Rent/own, Average/Mode of household income, Population | Cluster bar chart Of the overall demographic changes in the US gender distribution. |
-
-A table of detail demographic data for the selected city and time period
-| States | 2021              | 2022              | 2023 | 2024 |
-| ------ | ----------------- | ----------------- | ---- | ---- |
-| AL     | 3,210,000 (M↑, F) | 2,948,000 (M↑, F) |      |      |
-| AR     | 5,810,000 (M, F↓) | 2,520,000 (M, F↓) |      |      |
-
-
-
+      3. PEMNTVTY   Demographics-native country of mother
+      4. marital    Demographics-marital status
+      5. sex        Demographics-sex
+      6. citiz      Demographics-United States citizenship group
+      7. occ1       Primary Job
+      8. occ2       Second Job
+      9. collegcred college credit completed
+     10. city       Demographics-city level
