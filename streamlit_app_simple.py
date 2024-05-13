@@ -9,7 +9,7 @@ from censustools import *
 #######################  # Page configuration
 st.set_page_config(
     page_title="US Population Census - Semester project",
-    page_icon="🏂",
+    page_icon="🚀",
     layout="wide",
     initial_sidebar_state="expanded")
 
