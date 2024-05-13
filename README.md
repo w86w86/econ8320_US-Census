@@ -50,24 +50,22 @@ Our project will try to understand the population by presenting social, demograp
 | PEMARITL       | Demographics-marital status                             |
 | PECYC          | Demographics-years of college credit completed          |
 | PEDIPGED       | Demographics-high school, graduation/GED                |
-| PEEDUCA        | Demographics-highest level of school completed          |
 | PEERNPER       | Earnings-when received, periodicity                     |
-| PTERN / PTERN2 | Earnings-(calculated)weekly overtime                    |
 | PTIO1OCD       | Industry and Occupation - Occupation Code (Primary Job) |
 | PTIO2OCD       | Industry and Occupation - Occupation Code (Second Job)  |
 | PESEX          | Demographics-sex                                        |
 | PRCITSHP       | Demographics-United States citizenship group            |
 
-#### Variables to track a specific datetime and/or geographic area
-| YYYYMM   | Year-Month                                                                                                                             |
-| -------- | -------------------------------------------------------------------------------------------------------------------------------------- |
-| STATE    | FIPS STATE Code                                                                                                                        |
-| REGION   | REGION                                                                                                                                 |
-| QSTNUM   | Unique household identifier (Will use it to identify person living under the same roof, a longitudinal value due to conflicting data). |
-| QSTNUM   | Unique person identifier (Will help count the adult in a household who get interviewed).                                               |
-| HRNUMHOU | Household-total # of members                                                                                                           |
-
-I don’t see the “city” option in the collected data, so will use the county information according to the entity hierarchy below: <img src="https://github.com/w86w86/econ8320_US-Census/assets/54444342/aa4028d5-1085-494e-a7f8-f805c41ddf5d" height="40">
+1. weight     represents the information related to population counts.
+      2. nativity   column provides information about the state
+      1. PEMNTVTY   Demographics-native country of mother
+      3. marital    Demographics-marital status
+      4. sex        Demographics-sex
+      5. citiz      Demographics-United States citizenship group
+      6. occ1       Primary Job
+      7. occ2       Second Job
+      8. collegcred college credit completed
+      5. city       Demographics-city level
 
 
 ## Dashboard Design 
