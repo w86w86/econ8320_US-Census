@@ -56,8 +56,8 @@ Our project will try to understand the population by presenting social, demograp
 | PRCITSHP       | Demographics-United States citizenship group            |
 
       1. weight     represents the information related to population counts.
-      2. nativity   column provides information about the state
-      3. PEMNTVTY   Demographics-native country of mother
+      2. state      column provides information about the state
+      3. nativity   Demographics-native country of mother
       4. marital    Demographics-marital status
       5. sex        Demographics-sex
       6. citiz      Demographics-United States citizenship group
