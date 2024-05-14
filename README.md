@@ -7,7 +7,7 @@ Our dashboard will present the distribution of population by age groups, by gend
 We will follow the process below to collect the data:
 
 - [X]	Create the GitHub repository for the project.
-> [04/08/2024] [![Open nb in Colab Notebook](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/w86w86/econ8320_US-Census/tree/main/US_census.ipynb)
+> [04/08/2024] [![Open nb in Colab Notebook](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/w86w86/econ8320_US-Census/blob/main/US_census.ipynb)
 - [X] Use the US Census Bureau API to collect data at the year-month-city level.
 - [X] Build the python project:
     - [X] collect at once all the data, 
