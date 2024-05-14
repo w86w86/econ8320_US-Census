@@ -20,8 +20,8 @@ def store_date():
     ourfile = "GitAction.log" 
     current_time = dt.now().strftime("%Y-%m-%d %H:%M:%S")
     with open(ourfile, 'a') as file:
-        msg = f"The update on the Census.gov data ran at {current_time} in the file {ourfile}" 
-        file.write(msg)
+        message = f"The update on the Census.gov data ran at {current_time} in the file {ourfile}"
+        file.write(message)
 
 if __name__ == '__main__':
     store_date()
