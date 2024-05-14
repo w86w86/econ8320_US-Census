@@ -25,4 +25,4 @@ def store_date():
 
 if __name__ == '__main__':
     store_date()
-    #checkCensusUpdate()
+    checkCensusUpdate()
