@@ -17,7 +17,7 @@ def checkCensusUpdate():
     #group_by_03(api1) 
 
 def store_date():
-    ourfile = "testhour.txt" 
+    ourfile = "GitAction.log" 
     current_time = dt.now().strftime("%Y-%m-%d %H:%M:%S")
     with open(ourfile, 'a') as file:
          msg = f"The update on the Census.gov data ran at {current_time} in the file {ourfile}")
