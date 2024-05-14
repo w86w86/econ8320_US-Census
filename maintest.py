@@ -12,7 +12,7 @@ from censustools import *
 def checkCensusUpdate():
     #Once the cron job is launched, this function check new census release for the month of June and create a CSV accordingly 
     api1=API('github')
-    #single_file_generator_01(api1)
+    single_file_generator_01(api1)
     #merge_02(api1)
     #group_by_03(api1) 
 
