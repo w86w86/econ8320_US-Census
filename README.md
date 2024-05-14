@@ -7,7 +7,7 @@ Our dashboard will present the distribution of population by age groups, by gend
 We will follow the process below to collect the data:
 
 - [X]	Create the GitHub repository for the project.
-> [04/08/2024] https://github.com/w86w86/econ8320_US-Census
+> [04/08/2024] [![Open nb in Colab Notebook](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/w86w86/econ8320_US-Census/tree/main/US_census.ipynb)
 - [X] Use the US Census Bureau API to collect data at the year-month-city level.
 - [X] Build the python project:
     - [X] collect at once all the data, 
@@ -17,7 +17,7 @@ We will follow the process below to collect the data:
     - [ ] Presentation of the project
         - [X] https://souleymane.streamlit.app/
         - [X] https://github.com/w86w86/econ8320_US-Census
-        - [ ] Video of the presentation, http://www.bit.ly/uscensuspresentation 
+        - [ ] Video of the presentation, [![Souleymane US Census Streamlit dash App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://souleymane.streamlit.app/)
           
 According to the CPS website, the API call look like is format: `http://api.census.gov/data/2024/cps/basic/jan?get=PEMLR,PWSSWGT,PEMARITL&for=state:01&PEEDUCA=39&key=YOUR_KEY_GOES_HERE` with all the variables defined in the JSON link: `https://api.census.gov/data/2024/cps/basic/jan/variables.json`
 
