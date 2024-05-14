@@ -8,8 +8,8 @@ on:
   workflow_dispatch:
 
   schedule:
-    #- cron: "9 8 7 6 *" #Runs at 08:09AM, every June 7th.
-    - cron: "*/5 * * * *" #Runs every 5 minutes.
+    - cron: "9 8 7 6 *" #Runs at 08:09AM, every June 7th.
+    #- cron: "*/5 * * * *" #Runs every 5 minutes.
 
 permissions:
   checks: write
