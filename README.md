@@ -8,13 +8,17 @@ We will follow the process below to collect the data:
 
 - [X]	Create the GitHub repository for the project.
 > [04/08/2024] https://github.com/w86w86/econ8320_US-Census
-- [ ] Use the US Census Bureau API to collect data at the year-month-city level.
-- [ ] Build the python project:
-    - [ ] collect at once all the data, 
-    - [ ] build the interactive dashboard using Streamlit
-    - [ ] build the script that will run once per month through GitHub Actions to generate monthly data
-    - [ ] update previous dataset with new collected items.
-
+- [X] Use the US Census Bureau API to collect data at the year-month-city level.
+- [X] Build the python project:
+    - [X] collect at once all the data, 
+    - [X] build the interactive dashboard using Streamlit
+    - [X] build the script that will run once per year 'june' through GitHub Actions to generate monthly data
+    - [X] update previous dataset with new collected items.
+    - [ ] Presentation of the project
+        - [X] https://souleymane.streamlit.app/
+        - [X] https://github.com/w86w86/econ8320_US-Census
+        - [ ] Video of the presentation, http://www.bit.ly/uscensuspresentation 
+          
 According to the CPS website, the API call look like is format: `http://api.census.gov/data/2024/cps/basic/jan?get=PEMLR,PWSSWGT,PEMARITL&for=state:01&PEEDUCA=39&key=YOUR_KEY_GOES_HERE` with all the variables defined in the JSON link: `https://api.census.gov/data/2024/cps/basic/jan/variables.json`
 
 A glance, this API indicates that we need to know about a couple of items
