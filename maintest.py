@@ -13,8 +13,7 @@ def checkCensusUpdate():
     api1=API('github')
     single_file_generator_01(api1)
     merge_02(api1)
-    group_by_03(api1)
-    api2.df = readCSV_and_fuse_dfs_04(api1)
+    group_by_03(api1) 
 
 def store_date():
     ourfile = "testhour.txt" 
@@ -26,4 +25,4 @@ def store_date():
 
 if __name__ == '__main__':
     store_date()
-    #checkCensusUpdate()
+    checkCensusUpdate()
