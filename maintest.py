@@ -22,7 +22,7 @@ def store_date():
     with open(ourfile, 'a') as file:
         file.write(current_time + '\n')
       
-    print(f"Current time written {current_time} in the file {ourfile}")
+    print(f"The update on the Census.gov data ran at {current_time} in the file {ourfile}")
 
 if __name__ == '__main__':
     store_date()
