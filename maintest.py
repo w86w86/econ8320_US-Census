@@ -14,13 +14,13 @@ def checkCensusUpdate():
     api1=API('github')
     single_file_generator_01(api1)
     merge_02(api1)
-    #group_by_03(api1) 
+    group_by_03(api1) 
 
 def store_date():
     ourfile = "GitAction.log" 
     current_time = dt.now().strftime("%Y-%m-%d %H:%M:%S")
     with open(ourfile, 'a') as file:
-        message = f"The update on the Census.gov data ran at {current_time} in the file {ourfile}"
+        message = f"\nThe update on the Census.gov data ran at {current_time} in the file {ourfile}"
         file.write(message)
         print (message)
 
